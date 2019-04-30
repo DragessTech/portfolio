@@ -77,21 +77,33 @@ section h1 {
 /* Section Images */
 
 section#home {
-    background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;
+    background: #5452A4;
+    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
     ;
 }
 
 section#game {
-    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;
+    background: #5452A4;
+    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
     ;
 }
 
 section#sites {
-    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;
+    background: #5452A4;
+    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
     ;
 }
 
 section#programs {
-    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;
+    background: #5452A4;
+    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
+    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
     ;
 }
