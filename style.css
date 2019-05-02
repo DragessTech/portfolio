@@ -13,7 +13,8 @@ a:hover {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    background: url(./img/building.jpg);
+    /* Photo by Manuela Kohl from Pexels */
     color: #fff;
     height: 100vh;
     line-height: 1.6;
@@ -29,8 +30,16 @@ body {
     scroll-snap-type: y mandatory;
 }
 
+.game,
+.website,
+.program{
+  display: flex;
+  flex-direction: row;
+}
+
 .imgContainer {
-    float: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .lead {
@@ -76,42 +85,11 @@ section {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
     /* Scroll Snap */
     scroll-snap-align: center;
-}
+    }
 
 section h1 {
     font-size: 4rem;
-}
-
-
-/* Section Images */
-
-section#home {
-    background: #5452A4;
-    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-}
-
-section#game {
-    background: #5452A4;
-    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-}
-
-section#sites {
-    background: #5452A4;
-    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-}
-
-section#programs {
-    background: #5452A4;
-    background: -moz-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: -webkit-linear-gradient(top, #5452A4 0%, #0004CB 50%, #5452A4 100%);
-    background: linear-gradient(to bottom, #5452A4 0%, #0004CB 50%, #5452A4 100%);
 }
